@@ -3,19 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E138490026249B4B00DF9D1D /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13848FF26249B4B00DF9D1D /* StatsView.swift */; };
+		E13849092624A07800DF9D1D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E13849082624A07800DF9D1D /* FirebaseFirestore */; };
+		E138490B2624A07800DF9D1D /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = E138490A2624A07800DF9D1D /* FirebaseFirestoreSwift-Beta */; };
 		E151EAD825A98B4B007B2995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151EAD725A98B4B007B2995 /* AppDelegate.swift */; };
 		E151EADA25A98B4B007B2995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151EAD925A98B4B007B2995 /* SceneDelegate.swift */; };
 		E151EADC25A98B4B007B2995 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151EADB25A98B4B007B2995 /* ContentView.swift */; };
 		E151EADE25A98B4D007B2995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E151EADD25A98B4D007B2995 /* Assets.xcassets */; };
 		E151EAE125A98B4D007B2995 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E151EAE025A98B4D007B2995 /* Preview Assets.xcassets */; };
 		E151EAE425A98B4D007B2995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E151EAE225A98B4D007B2995 /* LaunchScreen.storyboard */; };
+		E151EAED25A98B72007B2995 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151EAEC25A98B72007B2995 /* WebView.swift */; };
+		E151EAF025A98B8A007B2995 /* BrowsingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151EAEF25A98B8A007B2995 /* BrowsingView.swift */; };
+		E151EAF525A98D84007B2995 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151EAF425A98D84007B2995 /* BlurView.swift */; };
+		E151EAF825A98E25007B2995 /* FavWebsites.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151EAF725A98E25007B2995 /* FavWebsites.swift */; };
+		E151EAFC25A99385007B2995 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151EAFB25A99385007B2995 /* SearchBarView.swift */; };
+		E151EAFF25A999BF007B2995 /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151EAFE25A999BF007B2995 /* Points.swift */; };
+		E151EB0325A99B7D007B2995 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E151EB0225A99B7D007B2995 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0251D987FCA6E7DAB1A811AE /* Pods-StudyWebBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyWebBrowser.release.xcconfig"; path = "Target Support Files/Pods-StudyWebBrowser/Pods-StudyWebBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		7542B96149F8BEE0A21DB852 /* Pods_StudyWebBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyWebBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13848FF26249B4B00DF9D1D /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		E138490226249BCD00DF9D1D /* StudyWebBrowser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StudyWebBrowser.entitlements; sourceTree = "<group>"; };
 		E151EAD425A98B4B007B2995 /* StudyWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E151EAD725A98B4B007B2995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E151EAD925A98B4B007B2995 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,14 @@
 		E151EAE025A98B4D007B2995 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E151EAE325A98B4D007B2995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E151EAE525A98B4D007B2995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E151EAEC25A98B72007B2995 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E151EAEF25A98B8A007B2995 /* BrowsingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsingView.swift; sourceTree = "<group>"; };
+		E151EAF425A98D84007B2995 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		E151EAF725A98E25007B2995 /* FavWebsites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavWebsites.swift; sourceTree = "<group>"; };
+		E151EAFB25A99385007B2995 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		E151EAFE25A999BF007B2995 /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		E151EB0225A99B7D007B2995 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E5FAC75390EB238500CAD79F /* Pods-StudyWebBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyWebBrowser.debug.xcconfig"; path = "Target Support Files/Pods-StudyWebBrowser/Pods-StudyWebBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E138490B2624A07800DF9D1D /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				E13849092624A07800DF9D1D /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C965DEB8D0ADB4D180A1091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5FAC75390EB238500CAD79F /* Pods-StudyWebBrowser.debug.xcconfig */,
+				0251D987FCA6E7DAB1A811AE /* Pods-StudyWebBrowser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E151EACB25A98B4B007B2995 = {
 			isa = PBXGroup;
 			children = (
 				E151EAD625A98B4B007B2995 /* StudyWebBrowser */,
 				E151EAD525A98B4B007B2995 /* Products */,
+				F80E9F20DF4223A5885F04F7 /* Frameworks */,
+				5C965DEB8D0ADB4D180A1091 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +91,18 @@
 		E151EAD625A98B4B007B2995 /* StudyWebBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				E138490226249BCD00DF9D1D /* StudyWebBrowser.entitlements */,
 				E151EAD725A98B4B007B2995 /* AppDelegate.swift */,
+				E13848FF26249B4B00DF9D1D /* StatsView.swift */,
 				E151EAD925A98B4B007B2995 /* SceneDelegate.swift */,
 				E151EADB25A98B4B007B2995 /* ContentView.swift */,
+				E151EB0225A99B7D007B2995 /* GoogleService-Info.plist */,
+				E151EAFB25A99385007B2995 /* SearchBarView.swift */,
+				E151EAEF25A98B8A007B2995 /* BrowsingView.swift */,
+				E151EAFE25A999BF007B2995 /* Points.swift */,
+				E151EAF725A98E25007B2995 /* FavWebsites.swift */,
+				E151EAF425A98D84007B2995 /* BlurView.swift */,
+				E151EAEC25A98B72007B2995 /* WebView.swift */,
 				E151EADD25A98B4D007B2995 /* Assets.xcassets */,
 				E151EAE225A98B4D007B2995 /* LaunchScreen.storyboard */,
 				E151EAE525A98B4D007B2995 /* Info.plist */,
@@ -75,6 +119,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F80E9F20DF4223A5885F04F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7542B96149F8BEE0A21DB852 /* Pods_StudyWebBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,6 +134,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E151EAE825A98B4D007B2995 /* Build configuration list for PBXNativeTarget "StudyWebBrowser" */;
 			buildPhases = (
+				5C7700DF964A4EC96940685A /* [CP] Check Pods Manifest.lock */,
 				E151EAD025A98B4B007B2995 /* Sources */,
 				E151EAD125A98B4B007B2995 /* Frameworks */,
 				E151EAD225A98B4B007B2995 /* Resources */,
@@ -91,6 +144,10 @@
 			dependencies = (
 			);
 			name = StudyWebBrowser;
+			packageProductDependencies = (
+				E13849082624A07800DF9D1D /* FirebaseFirestore */,
+				E138490A2624A07800DF9D1D /* FirebaseFirestoreSwift-Beta */,
+			);
 			productName = StudyWebBrowser;
 			productReference = E151EAD425A98B4B007B2995 /* StudyWebBrowser.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +175,9 @@
 				Base,
 			);
 			mainGroup = E151EACB25A98B4B007B2995;
+			packageReferences = (
+				E13849072624A07800DF9D1D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = E151EAD525A98B4B007B2995 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E151EAE425A98B4D007B2995 /* LaunchScreen.storyboard in Resources */,
+				E151EB0325A99B7D007B2995 /* GoogleService-Info.plist in Resources */,
 				E151EAE125A98B4D007B2995 /* Preview Assets.xcassets in Resources */,
 				E151EADE25A98B4D007B2995 /* Assets.xcassets in Resources */,
 			);
@@ -140,14 +201,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C7700DF964A4EC96940685A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudyWebBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E151EAD025A98B4B007B2995 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E151EAD825A98B4B007B2995 /* AppDelegate.swift in Sources */,
+				E151EAFF25A999BF007B2995 /* Points.swift in Sources */,
+				E151EAF825A98E25007B2995 /* FavWebsites.swift in Sources */,
+				E151EAED25A98B72007B2995 /* WebView.swift in Sources */,
+				E151EAF025A98B8A007B2995 /* BrowsingView.swift in Sources */,
+				E151EAFC25A99385007B2995 /* SearchBarView.swift in Sources */,
+				E138490026249B4B00DF9D1D /* StatsView.swift in Sources */,
 				E151EADA25A98B4B007B2995 /* SceneDelegate.swift in Sources */,
 				E151EADC25A98B4B007B2995 /* ContentView.swift in Sources */,
+				E151EAF525A98D84007B2995 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,9 +376,11 @@
 		};
 		E151EAE925A98B4D007B2995 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5FAC75390EB238500CAD79F /* Pods-StudyWebBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudyWebBrowser/StudyWebBrowser.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"StudyWebBrowser/Preview Content\"";
 				DEVELOPMENT_TEAM = MC27HKM86M;
@@ -297,16 +392,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.StudyWebBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		E151EAEA25A98B4D007B2995 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0251D987FCA6E7DAB1A811AE /* Pods-StudyWebBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudyWebBrowser/StudyWebBrowser.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"StudyWebBrowser/Preview Content\"";
 				DEVELOPMENT_TEAM = MC27HKM86M;
@@ -318,8 +416,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.StudyWebBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -345,6 +444,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E13849072624A07800DF9D1D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E13849082624A07800DF9D1D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E13849072624A07800DF9D1D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E138490A2624A07800DF9D1D /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E13849072624A07800DF9D1D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E151EACC25A98B4B007B2995 /* Project object */;
 }

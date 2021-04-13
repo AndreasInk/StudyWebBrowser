@@ -7,14 +7,9 @@
 
 import SwiftUI
 
-struct FavWebsites: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct FavWebsites_Previews: PreviewProvider {
-    static var previews: some View {
-        FavWebsites()
-    }
+struct FavWebsites: Identifiable, Codable, Hashable{
+    var id: String
+    var title: String
+    var website: String
+    var isProductive: Bool
 }
